@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import {Link} from 'react-router-dom';
 import Carousel from 'react-bootstrap/Carousel';
 import './carousel.css'
 import img1 from '../../img/blogging-guide-unsplash.jpg';
@@ -24,7 +25,7 @@ const CustomeCarousel = () => {
                 <Carousel.Caption animation="false">
                     <h3>Arizona Package</h3>
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    <button className="btn btn-primary float-right">Read More</button>
+                    <Link to="/arizona" className="btn btn-primary float-right">Read More</Link>
                 </Carousel.Caption>
                 
                 </Carousel.Item>
